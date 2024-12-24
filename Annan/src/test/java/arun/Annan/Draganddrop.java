@@ -19,7 +19,7 @@ public class Draganddrop {
 		Actions as=new Actions(driver);
 		Thread.sleep(5000);
 		as.dragAndDrop(scr, target).perform();
-		
+		driver.close();;
 		
 
 
