@@ -17,6 +17,7 @@ public class Draganddropby {
 		Thread.sleep(4000);
 		as.dragAndDropBy(obj, 200, 0).perform();
 		Thread.sleep(4000);
+		driver.close();
 
 		
 
